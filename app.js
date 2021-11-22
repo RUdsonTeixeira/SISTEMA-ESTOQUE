@@ -9,7 +9,6 @@ app.get('/',function(req,res){
 app.get('/produto/novo', function(req,res){
     res.render('produto/novo')
 })
-<<<<<<< HEAD
 app.get('/marca/novo',function(req,res){
     res.render('marca/novo')
 })
@@ -17,15 +16,6 @@ app.get('/marca/editar',function(req,res){
     res.render('marca/editar')
 })
 app.get('/marca/listar',function(req,res){
-=======
-app.get('/marca/novo', function(req,res){
-    res.render('marca/novo')
-})
-app.get('/marca/editar', function(req,res){
-    res.render('marca/editar')
-})
-app.get('/marca/listar', function(req,res){
->>>>>>> ec2908165e0273a087378b445c4bb1bca4165b17
     res.render('marca/listar')
 })
 
