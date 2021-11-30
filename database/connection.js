@@ -1,12 +1,12 @@
 const { Sequelize } = require('sequelize')
-const DATABASE = "sistema_estoque"
+const DATABASE = "sistema-estoque"
 const USERNAME = "postgres"
-const PASSWORD = "root"
+const PASSWORD = "ifms"
 const HOST = "localhost"
 
 const sequelize = new Sequelize(DATABASE, USERNAME, PASSWORD, {
     host: HOST,
-    dialect: 'postgres'
+    dialect: "postgres"
   });
 
   async function test(){
@@ -18,3 +18,4 @@ const sequelize = new Sequelize(DATABASE, USERNAME, PASSWORD, {
   }
 }
 //test()
+module.exports = sequelize
